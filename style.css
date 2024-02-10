@@ -3,20 +3,24 @@
  margin: 0;
  font-family: Arial, Helvetica, sans-serif;
 }
+
 header{
  background-color: #1A1A1A;
  padding-top: 36px;
  padding-bottom: 200px;
 }
+
 .container{
  max-width: 1080px;
  margin: auto;
 }
+
 nav{
  display: flex;
  justify-content: space-between;
  align-items: center;
 }
+
 .logo{
  width: 40px;
  height: 40px;
@@ -29,11 +33,13 @@ nav{
  color: #1A1A1A;
  font-weight: bold;
 }
+
 .navigation-holder{
  display: flex;
  justify-content: space-evenly;
  flex-grow: 1;
 }
+
 .navigation-holder a{
  text-decoration: none;
  color: #D1D1D1;
@@ -41,11 +47,13 @@ nav{
  text-transform: uppercase;
  letter-spacing: 2px;
 }
+
 .header-title{
  position: relative;
  margin-top: 110px;
  margin-bottom: 80px;
 }
+
 .header-subtitle-text{
  color: #8C8C8C;
  font-size: 13px;
@@ -56,12 +64,14 @@ nav{
  padding: 8px 20px;
  margin-bottom: 13px;
 }
+
 .header-title-text{
  font-size: 90px;
  color: #fff;
  font-weight: bold;
  max-width: 620px;
 }
+
 .join{
  background-color: #FEBE02;
  position: absolute;
@@ -78,13 +88,16 @@ nav{
  font-weight: bold;
  border-radius: 6px;
 }
+
 .header-info{
  display: flex;
  justify-content: space-between;
 }
+
 .card-left{
  width: 360px;
 }
+
 .card-title{
  color: #fff;
  font-size: 20px;
@@ -93,12 +106,14 @@ nav{
  margin-top: 15px;
  margin-bottom: 4px;
 }
+
 .card-subtitle{
  font-size: 13px;
  color: #8C8C8C;
  font-weight: bold;
  letter-spacing: 1.5px;
 }
+
 .about-text{
  border-left:1px solid white ;
  padding: 8px 20px;
@@ -109,18 +124,21 @@ nav{
  letter-spacing: 1.5px;
  margin-bottom: 13px;
 }
+
 .about-subtitle-text{
  color: #D1D1D1;
  max-width: 240px;
  font-size: 14px;
  line-height: 1.8;
 }
+
 .audio-block{
  background-color: #242424;
  display: flex;
  margin-top: 60px;
  width: 540px;
 }
+
 .audio-container{
  display: flex;
  justify-content: center;
@@ -129,14 +147,17 @@ nav{
  position: relative;
  padding: 0 30px;
 }
+
 .audio-detail{
  flex: 1;
 }
+
 .control{
  position: absolute;
  right: 0;
  bottom: 0;
 }
+
 .control i{
  width: 40px;
  height: 40px;
@@ -146,16 +167,19 @@ nav{
  background-color: #FEBE02;
  color:#1A1A1A;
 }
+
 footer{
  background-color: #F5F6F8;
  padding: 60px 0;
 }
+
 .course-info-title{
  font-size: 70px;
  color: #1A1A1A;
  font-weight: bold;
  padding-bottom: 40px;
 }
+
 .footer-row{
  display: flex;
  justify-content: space-between;
@@ -163,26 +187,115 @@ footer{
  border-bottom: 1px solid #939495;
  padding: 30px 0;
 }
+
 .courses-left-block{
  display: flex;
  align-items: center;
 }
+
 .course-number{
  font-size: 25px;
  color: #A2A2A4;
  font-weight: bold;
 }
+
 .course-block{
  margin-left: 60px;
 }
+
 .course-block h2{
  font-size: 50px;
  color: black;
 }
+
 .course-block p{
  font-size: 14px;
  color: #9a9a9b;
 }
+
+.courses-title {
+    color: black;
+    font-size: 70px;
+    margin: 60px 0;
+}
+
+.courses-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.card-big {width: 540px;}
+.card-small{width: 360px;}
+
+.img-container {
+    height: 360px;
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-card-1 {
+    background-image: url(img/card-1.png);
+}
+
+.img-card-2 {
+    background-image: url(img/card-2.png);
+}
+
+.img-card-3 {
+    background-image: url(img/card-3.png);
+}
+
+.img-card-4 {
+    background-image: url(img/card-4.png);
+}
+
+.btn-time {
+    background-color: white;
+    border-radius: 5px;
+    color:#1A1A1A;
+    margin-right: 8px;
+    padding: 6px 12px;
+}
+
+.btn-raiting {
+    background-color: black;
+    color: white;
+    padding: 6px;
+    border-radius: 5px;
+    width: 50px;
+    height: 20px;
+}
+
+.info-container h4 {
+    color: gray;
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin: 18px 0;
+}
+
+.info-container h2 {
+    color: #1a1a1a;
+    font-size: 35px;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+}
+
+.info-container p{
+color: gray;
+font-size: 16px;
+letter-spacing: 0.5px;
+margin-bottom: 20px;
+line-height: 1.7;
+}
+
+
+
+
 @media (max-width: 1120px){
  .container{
  padding: 0 20px;
@@ -194,6 +307,9 @@ footer{
  }
  .card-right{
  margin-top: 60px;
+ }
+ .course-wrap{
+    flex-wrap: wrap;
  }
 }
 @media (max-width: 578px){
